@@ -1,0 +1,639 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.app-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f5f6fa;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box1 {
+  background: #fff;
+  padding: 40px 32px 32px 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  width: 350px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 250px 60px 32px 32px;
+  padding-top: 28rem;
+}
+.form-box1 h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0 0; /* No margin, no space below */
+  text-align: left;
+}
+
+.login-subtext {
+  color: #8b8b8b;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: left;
+  margin: 0; /* No margin between paragraphs */
+  padding-top: rem; /* Space between title and first paragraph */
+
+}
+
+/* Add margin only below the last paragraph */
+.login-subtext:last-of-type {
+  
+  margin-bottom: 2rem; /* space between last paragraph and button */
+}
+
+
+.button-primary1 {
+  margin-top: 20rem;
+  padding: 1rem;
+  background-color: #7C3AED;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.button-secondary {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #ece6fa;
+  color: #6c47ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.form-box2 {
+  background: #fff;
+  padding: 60px 32px 32px 32px; /* Adjust padding for top spacing */
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(232, 12, 12, 0.07);
+  width: 350px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensure content stays at the top */
+  height: 88vh; /* Stretch box from top to bottom */
+  margin: 0 auto; /* Center the form horizontally */
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.form-box {
+  background: #fff;
+  padding: 40px 32px 32px 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  width: 350px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 250px 60px 32px 32px;
+  padding-top: 24.5rem;
+ 
+}
+
+.form-box h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  
+  
+}
+
+.form-box p {
+  color: #8b8b8b;
+  font-size: 1.1rem;
+  
+  margin-bottom: 2rem;abody, html, #root {
+  height: 100%;
+  margin-left: 30rem;
+  padding: 0;
+  background: #fff;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  text-align: left;
+}
+
+.app-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f5f6fa;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.input-group {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #7C3AED;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8f8fa;
+  margin-bottom: 0.1rem;
+}
+
+
+
+
+.agency-label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #0000;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.radio-options label {
+  font-weight: 500;
+  color: #333;
+  font-size: 1rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.profile-pic {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #dedede;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.account-email {
+  color: #888;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+.account-settings-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+}
+
+.input-group {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #7C3AED;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8f8fa;
+  margin-bottom: 0.1rem;
+}
+.button-primary10 {
+  width: 110%;
+  background: #7C3AED;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+  margin-top: 1rem;
+}
+/* Create Account button */
+.button-primary {
+  width: 110%;
+  background: #7C3AED;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+  margin-top: 3.5rem;
+}
+
+.button-primary:hover {
+  background: #7C3AED;
+}
+/*  Create Account button welcome page */
+.button-primary1 {
+  width: 110%;
+  background: #7C3AED;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+.button-secondary
+ {
+  width: 110%;
+  background: #DDD6FE;
+  color: #070707;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.agency-label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+.radio-group label {
+  font-weight: 400;
+  color: #222;
+  font-size: 1rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.profile-pic {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #dedede;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.account-email {
+  color: #888;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+.account-settings-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+/* Adjust spacing between title lines */
+.heading {
+  margin-top: -23.5rem;
+ 
+}
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.heading-space {
+  height: 15px; /* Controls space between the two h2s */
+}
+
+
+/* Inline radio buttons */
+.radio-inline {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.radio-inline label {
+  font-weight: 500;
+  color: #333;
+  font-size: 1rem;
+}
+
+
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.heading-space {
+  height: 2px;
+}
+
+/* Input group labels with red asterisks */
+.input-groupp label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.input-groupp label::after {
+  content: attr(data-required);
+  color: red;
+  margin-left: 0.2rem;
+}
+
+/* Override specific required label styles */
+label[for="agency"]::after {
+  display: none;
+}
+
+/* White placeholder background */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: white; /* Updated here */
+  margin-bottom: 0.1rem;
+}
+
+/* Are you an Agency label */
+.agency-label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: black; /* Updated to black */
+}
+
+/* Inline radio buttons */
+.radio-inline {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: -1rem;
+  
+
+}
+
+.radio-inline label {
+  font-weight: 500;
+  color: #333;
+  font-size: 1rem;
+}
+.asterisk {
+  color: red;
+  margin-left: 2px;
+}
+
+
+/* Floating label input */
+.input-floating {
+  position: relative;
+  margin-top: 30px;
+  
+  
+}
+
+.input-floating input {
+  width: 100%;
+  padding: 14px 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  outline: none;
+  
+  
+}
+
+.input-floating label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background-color: white;
+  padding: 0 4px;
+  font-size: 12px;
+  color: #7C3AED;
+  font-weight: 630;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+
+
+.custom-radio {
+  position: relative;
+  padding-left: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  user-select: none;
+}
+
+/* Hide default radio */
+.custom-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Custom radio style */
+.custom-radio .checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 16px;           /* smaller size */
+  width: 16px;            /* smaller size */
+  background-color: white;
+  border: 2px solid #000;
+  border-radius: 100%;
+}
+
+/* Adjust the inner dot accordingly */
+.custom-radio input:checked ~ .checkmark::after {
+  content: "";
+  position: absolute;
+  top: 4px;               /* centers the dot */
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #7C3AED;
+}
+
+
+
+.login-left h2 {
+  margin: 0;
+  line-height: 1.2;
+  
+
+}
+
+
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+  color: #8b8b8b;
+  font-size: 1rem;
+}
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+}
+
+.account-wrapper {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+.account-container {
+  width: 100%;
+  max-width: 420px;
+  height: 100%;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.account-settings-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.account-box {
+  padding: 1rem;
+  border-bottom: 1px dashed #ccc;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.account-name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+  color: #000;
+}
+
+.account-email {
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
+.account-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+/* Empty vertical space below */
+.account-empty-space {
+  flex-grow: 1;
+  background: #f9f9f9;
+  border-top: 1px dashed #ccc;
+}
